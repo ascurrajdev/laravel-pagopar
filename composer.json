@@ -1,0 +1,37 @@
+{
+    "name": "ascurrajdev/laravel-pagopar",
+    "description": "Libreria para integrar Pagopar en Laravel",
+    "authors": [
+        {
+            "name":"Jose Ascurra",
+            "email":"info@joseascurradev.xyz",
+            "homepage":"https://www.joseascurradev.xyz",
+            "role":"Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "\\Ascurrajdev\\Pagopar\\" :"src/"
+        }
+    },
+    "support": {
+        "email": "info@joseascurradev.xyz"
+
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Ascurrajdev\\Pagopar\\Providers\\AppServiceProvider"
+            ],
+            "aliases":{
+                "PagoparOrden":"Ascurrajdev\\Pagopar\\Facades\\PagoparOrden"
+            }
+        }
+    },
+    "type": "library",
+    "license": "MIT",
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.5"
+    }
+}
