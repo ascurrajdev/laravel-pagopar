@@ -2,6 +2,8 @@
 
 _Acá va un párrafo que describa lo que es el proyecto_
 
+[![Latest Stable Version](https://poser.pugx.org/ascurrajdev/laravel-pagopar/v)](//packagist.org/packages/ascurrajdev/laravel-pagopar) [![Total Downloads](https://poser.pugx.org/ascurrajdev/laravel-pagopar/downloads)](//packagist.org/packages/ascurrajdev/laravel-pagopar) [![Latest Unstable Version](https://poser.pugx.org/ascurrajdev/laravel-pagopar/v/unstable)](//packagist.org/packages/ascurrajdev/laravel-pagopar) [![License](https://poser.pugx.org/ascurrajdev/laravel-pagopar/license)](//packagist.org/packages/ascurrajdev/laravel-pagopar)
+
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
