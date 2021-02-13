@@ -1,6 +1,6 @@
 # Laravel Pagopar
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Libreria para integrar laravel con pagopar_
 
 [![Latest Stable Version](https://poser.pugx.org/ascurrajdev/laravel-pagopar/v)](//packagist.org/packages/ascurrajdev/laravel-pagopar) [![Total Downloads](https://poser.pugx.org/ascurrajdev/laravel-pagopar/downloads)](//packagist.org/packages/ascurrajdev/laravel-pagopar) [![License](https://poser.pugx.org/ascurrajdev/laravel-pagopar/license)](//packagist.org/packages/ascurrajdev/laravel-pagopar)
 
