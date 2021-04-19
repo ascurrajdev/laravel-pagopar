@@ -1,0 +1,6 @@
+<?php
+return [
+    'TOKEN_PUBLICO' => env('PAGOPAR_TOKEN_PUBLICO',''),
+    'TOKEN_PRIVADO' => env('PAGOPAR_TOKEN_PRIVADO',''),
+    'URL_RESPUESTA' => env('PAGOPAR_URL_RESPUESTA',''),
+];

@@ -10,9 +10,15 @@ class AppServiceProvider extends ServiceProvider{
         $this->app->bind('pagopar-orden',function($app){
             return new PagoparOrden();
         });
+
+        $this->mergeConfigFrom(__DIR__.'/../../config/config.php','pagoparConfig');
     }
 
     public function handle(){
-
+        if($this->app->runningInConsole()){
+            $this->publishes([
+                __DIR__.'/../../config/config.php' => config_path('pagopar.php')
+            ],'laravel-pagopar-config');
+        }
     }
 }
