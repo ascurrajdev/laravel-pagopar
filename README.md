@@ -83,9 +83,9 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+_Mencion especial a los programadores que hicieron posible esto_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
+* **Jose Ascurra** - *Programacion* - [villanuevand](https://github.com/ascurrajdev)
 * **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
@@ -104,4 +104,4 @@ Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENS
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por [Jose Ascurra](https://github.com/ascurrajdev) 😊
