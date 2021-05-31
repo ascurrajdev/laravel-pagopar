@@ -3,6 +3,7 @@ namespace Ascurrajdev\Pagopar\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Ascurrajdev\Pagopar\Classes\PagoparOrden;
+use Ascurrajdev\Pagopar\Repositories\Pedido\{PedidoRepository,PedidoRepositoryImp};
 
 class AppServiceProvider extends ServiceProvider{
 
@@ -10,7 +11,10 @@ class AppServiceProvider extends ServiceProvider{
         $this->app->bind('pagopar-orden',function($app){
             return new PagoparOrden();
         });
-
+        $this->app->bind(
+            PedidoRepository::class,
+            PedidoRepositoryImp::class
+        );
         $this->mergeConfigFrom(__DIR__.'/../../config/config.php','pagoparConfig');
     }
 

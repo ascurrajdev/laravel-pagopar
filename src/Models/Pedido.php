@@ -14,7 +14,8 @@ class Pedido extends Model{
         'tipo_pedido',
         'comprador_id',
         'descripcion_resumen',
-        'fecha_maxima_pago'
+        'fecha_maxima_pago',
+        'estado'
     ];
 
     protected $hidden = [
