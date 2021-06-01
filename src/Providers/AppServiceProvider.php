@@ -18,6 +18,10 @@ class AppServiceProvider extends ServiceProvider{
         $this->mergeConfigFrom(__DIR__.'/../../config/config.php','pagoparConfig');
     }
 
+    public function boot(){
+        $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
+    }
+
     public function handle(){
         if($this->app->runningInConsole()){
             $this->publishes([

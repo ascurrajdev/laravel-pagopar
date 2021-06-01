@@ -1,10 +1,10 @@
 <?php
 namespace Ascurrajdev\Pagopar\Traits;
 
-use Ascurrajdev\Pagopar\Models\Comprador;
+use Ascurrajdev\Pagopar\Models\Pedido;
 
 trait HasCompras{
     public function compras(){
-        $this->morphMany(Comprador::class,'user');
+        $this->morphMany(Pedido::class,'cliente');
     }
 }

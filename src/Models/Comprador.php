@@ -10,7 +10,4 @@ class Comprador extends Model{
 
     protected $table = "compradores_pagopar";
 
-    public function user(){
-        return $this->morphTo();
-    }
 }

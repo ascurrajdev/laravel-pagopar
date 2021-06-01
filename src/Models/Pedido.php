@@ -27,6 +27,10 @@ class Pedido extends Model{
         return $this->belongsTo(Comprador::class);
     }
 
+    public function cliente(){
+        return $this->morphTo();
+    }
+
     public function detalle(){
         return $this->hasMany(DetallePedido::class);
     }
