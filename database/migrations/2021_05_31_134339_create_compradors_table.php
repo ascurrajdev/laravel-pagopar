@@ -15,17 +15,17 @@ class CreateCompradorsTable extends Migration
     {
         Schema::create('compradores_pagopar', function (Blueprint $table) {
             $table->id();
-            $table->string("email");
-            $table->string("telefono");
-            $table->string("ciudad");
-            $table->string("ruc");
-            $table->string("razon_social");
-            $table->string("nombre");
-            $table->string("documento");
-            $table->string("tipo_documento");
-            $table->string("direccion")->nullable(true)->default("");
-            $table->string("direccion_referencia")->nullable(true)->default("");
-            $table->poin("coordenadas")->nullable(true)->default([0,0]);
+            $table->string("email")->comment("El correo del comprador");
+            $table->string("telefono")->comment("El telefono del comprador");
+            $table->string("ciudad")->comment("La ciudad del comprador");
+            $table->string("ruc")->comment("El ruc del comprador");
+            $table->string("razon_social")->comment("La razon social de la orden");
+            $table->string("nombre")->comment("El nombre del comprador");
+            $table->string("documento")->comment("El numero de documento ya sea nro de cedula, pasaporte, etc...");
+            $table->string("tipo_documento")->comment("El tipo de documento ya sea Cedula, Pasaporte, etc...");
+            $table->string("direccion")->nullable(true)->default("")->comment("La direccion del comprador");
+            $table->string("direccion_referencia")->nullable(true)->default("")->comment("Referencias de la direccion del comprador");
+            $table->point("coordenadas")->nullable(true)->default([0,0])->comment("La ubicacion de la direccion del comprador");
             $table->timestamps();
         });
     }

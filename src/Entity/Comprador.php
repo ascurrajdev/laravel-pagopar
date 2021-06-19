@@ -13,9 +13,9 @@ class Comprador{
     private string $nombre;
     private string $documento;
     private string $tipoDocumento;
-    private string $direccion;
-    private string $direccionReferencia;
-    private array $coordenadas;
+    private string $direccion = "";
+    private string $direccionReferencia = "";
+    private array $coordenadas = [0,0];
 
     public function setEmail(string $email){
         $this->email = $email;
